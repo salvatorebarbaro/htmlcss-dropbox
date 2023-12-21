@@ -113,6 +113,7 @@ h2{
 .buisness_plan{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 55px;
     
 }
 .column{
@@ -127,12 +128,12 @@ h2{
 }
 .plan_head .conteiner{
     display: flex;
-    padding-bottom: -20px;
+    
 }
 
-.buisness_plan .plan_head .fa-solid{
+.buisness_plan .plan_head .fa-solid,#conteiner_team #team_head .fa-solid {
     font-size: 15px;
-    padding-bottom: 30px;
+    
     
 }
 .plan_body{
@@ -202,4 +203,39 @@ ul li{
 
 
 /* sezione piani fine*/
+/* sezione team inizio */
+#conteiner_team{
+    border: blue dashed 2px;
+    /* test  */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* sezione team inizio head*/
+
+#team_head{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #DEDEDF;
+    padding: 10px 0 ;
+}
+ #team_head div:nth-of-type(2){
+    padding-left: 5px;
+ }
+/* sezione team fine head*/
+/* sezione team inizio body */
+#team_body{
+    display: flex;
+    padding: 30px;
+    
+}
+#text_inside{
+    padding-right: 90px;
+}
+#team_body #text_inside div:nth-of-type(1){
+    padding-bottom: 55px;
+    font-size: 12px;
+}
+
+/* sezione team fine body */
 /* sezione centrale fine */
