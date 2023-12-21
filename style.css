@@ -102,6 +102,9 @@ h2{
     font-size: 32px;
     margin-bottom: 72px;
 }
+.checkbox{
+    padding-bottom: 50px;
+}
 .radio-buttons-row{
     display: flex;
     gap: 50px;
@@ -122,6 +125,10 @@ h2{
     justify-content: center;
     border: 1px solid #DEDEDF;
 }
+.plan_head .conteiner{
+    display: flex;
+    padding-bottom: -20px;
+}
 
 .buisness_plan .plan_head .fa-solid{
     font-size: 15px;
@@ -131,6 +138,7 @@ h2{
 .plan_body{
     padding-top: 40px;
     padding-left: 35px;
+    padding-right: 30px;
     border: 1px solid #DEDEDF;
 }
 h3{
@@ -142,6 +150,13 @@ h3{
 }
 #cadenza{
     padding-bottom: 60px;
+}
+.column .plan_body .icone_testo{
+    display: flex;
+}
+.icone_testo div:nth-of-type(2){
+    padding-left: 5px;
+
 }
 .column .plan_body .fa-solid{
     font-size: 15px;
@@ -177,7 +192,7 @@ ul li:nth-of-type(1){ padding-top: 40px;
 
 }
 ul li{
-    padding-bottom: 28px;
+    padding-bottom: 8px;
 }
 
 .check{
