@@ -72,9 +72,10 @@ h1{
     max-width: 30%;
     padding-top: 90px;
 }
-.fa-solid{
+.row .text i:nth-of-type(1){
     margin-top: 40px;
     font-size: 48px;
+    
 }
 #first .conteiner-big .row .image {
     max-width: 70%; 
@@ -97,5 +98,93 @@ h1{
     margin-left: auto;
     margin-right: auto ;
 }
+h2{
+    font-size: 32px;
+    margin-bottom: 72px;
+}
+.radio-buttons-row{
+    display: flex;
+    gap: 50px;
+}
+/* sezione piani inizio */
+.buisness_plan{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.column{
+    width: calc(100%/3 - 34px);
+    display: flex;
+    flex-direction: column;
+        }
+.plan_head{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #DEDEDF;
+}
 
+.buisness_plan .plan_head .fa-solid{
+    font-size: 15px;
+    padding-bottom: 30px;
+    
+}
+.plan_body{
+    padding-top: 40px;
+    padding-left: 35px;
+    border: 1px solid #DEDEDF;
+}
+h3{
+    font-size: 18px;
+    padding-bottom: 26px;
+}
+.column .plan_body strong{
+    padding-bottom: 20px;
+}
+#cadenza{
+    padding-bottom: 60px;
+}
+.column .plan_body .fa-solid{
+    font-size: 15px;
+}
+.column .plan_body div:nth-of-type(2){
+    padding-bottom: 28px;
+}
+.column .plan_body div:nth-of-type(3){
+    padding-bottom: 28px;
+}
+.column .plan_body div:nth-of-type(4){
+    padding-bottom: 56px;
+}
+.column .plan_body div:nth-of-type(5){
+    padding-bottom: 56px;
+}
+.plan_body p{
+    padding-bottom: 42px;
+}
+.plan_body hr{
+    width: 50px;
+    border: solid 1px #E5E5E6 ;
+    margin-bottom: 55px;
+}
+ul{
+    list-style-type: none;
+}
+ul span{
+    font-size: 15px;
+    
+}
+ul li:nth-of-type(1){ padding-top: 40px;
+
+}
+ul li{
+    padding-bottom: 28px;
+}
+
+.check{
+    color: #0560FF;
+    margin-bottom: 20px;
+}
+
+
+/* sezione piani fine*/
 /* sezione centrale fine */
