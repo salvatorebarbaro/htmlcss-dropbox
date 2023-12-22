@@ -261,4 +261,31 @@ ul li{
     border: #787878 1px solid;
 }
 /* fine sezione partner */
+/* inizio sezione dropbox_buisness */
+.dropbox_buisness{
+    display: flex;
+    flex-direction: column;
+    /* da togliere forse perchè inutile */
+    margin-bottom: 220px;
+}
+#row_img_txt{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.column_img_txt{
+    width: calc(100% / 3 - 50px / 3 * 2);
+    display: flex;
+    flex-direction: column;
+}
+#row_img_txt .column_img_txt img{
+    width: 100%;
+    /* impostato questo per dire all' immagine di prendersi tutta la diemnsione per larghezza possibile */
+}
+
+
+/* fine sezione dropbox_buisness */
+
 /* sezione centrale fine */
