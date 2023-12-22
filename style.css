@@ -89,7 +89,7 @@ h1{
 
 /* conteiner big fine */
 /* sezione centrale inizio */
-#sezione_centrale{
+.sezione_centrale{
     border: 1px dotted red;
 
     /* test */
@@ -373,3 +373,33 @@ background-color: #A2D39B;
     
 
 /* fine sezione università */
+/* inizi sezione prova gratis */
+#conteiner_provagratis{
+    background-color: #B4D0E7;
+}
+.sezione_centrale.provagratis{
+    
+    padding-top: 140px;
+    padding-bottom: 140px;
+    
+}
+#row_provagratis{
+display: flex;
+justify-content: center;
+position: relative;
+
+}
+#row_provagratis h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #61082F;
+}
+#row_provagratis a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    background-color: white;
+}
+/* fine sezione prova gratis */
