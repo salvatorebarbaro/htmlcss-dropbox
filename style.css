@@ -121,11 +121,11 @@ h2{
     width: calc(100%/3 - 34px);
     display: flex;
     flex-direction: column;
+    border: 1px solid #DEDEDF;
         }
 .plan_head{
     display: flex;
     justify-content: center;
-    border: 1px solid #DEDEDF;
 }
 .plan_head .conteiner{
     display: flex;
@@ -141,7 +141,7 @@ h2{
     padding-top: 40px;
     padding-left: 35px;
     padding-right: 30px;
-    border: 1px solid #DEDEDF;
+    border-top: 1px solid #DEDEDF;
 }
 h3{
     font-size: 18px;
@@ -292,3 +292,84 @@ ul li{
 /* fine sezione dropbox_buisness */
 
 /* sezione centrale fine */
+/* inizio sezione università */
+#conteiner_row_university{
+    display: flex;
+}
+.conteiner_university{
+    width: calc(100%/3);
+    height: calc(100vw / 3);
+    /* da inserire assolutamente senno si rimpiccioliscono cosi altezza adatta a viewport */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.university{
+    width: calc(100% / 2 / 2 * 2);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    
+}
+.conteiner_university .university img{
+    width: 100%;
+    scale: 0.5;
+    filter:invert(1);
+}
+.conteiner_university .university.primo{
+    /* .university.primo scritto cosi almeno il selettore prende la classe che le ha entrambe  */
+background-color: #A2D39B;
+}
+.conteiner_university .university.secondo{
+    background-color: #61082B;
+}
+.conteiner_university .university.terzo{
+    background-color:#0093CE ;
+}
+.conteiner_university .university.quarto{
+    background-color: #FF1C1C;
+}
+.conteiner_university .university.quinto {
+    background-color:#D5001F ;
+}
+.conteiner_university .university.sesto{
+    background-color:#B4D0E7 ;
+}
+.conteiner_university .university.settimo{
+    background-color:#0D2481 ;
+}
+.conteiner_university .university.ottavo{
+    background-color:#FFD830 ;
+}
+.conteiner_university.txt{
+    padding: 42px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+
+}
+.conteiner_university.txt img{
+    margin-bottom: 42px;
+    max-width: 260px;
+    /* in questo caso prendiamo dimensione da immagine esercizio */
+}
+.conteiner_university.txt hr{
+    width: 20%;
+    margin-bottom: 45px;
+}
+.conteiner_university.txt p{
+    font-size: 11px;
+    margin-bottom: 58px;
+}
+.conteiner_university.txt #citazione{
+    font-size: 11px;
+    
+}
+
+/* problemi riguardanti la sezione centrale da rivedere  */
+
+    
+
+/* fine sezione università */
