@@ -97,6 +97,7 @@ h1{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto ;
+    margin-bottom: 170px;
 }
 h2{
     font-size: 32px;
@@ -242,7 +243,9 @@ ul li{
 /* sezione team fine body */
 /* inizio sezione partner */
 .partner{
-    border:1px dotted red
+    border:1px dotted red;
+    margin-bottom: 170px;
+    
 }
 .partner .row #img_partner{
     width: 60%;
@@ -277,7 +280,7 @@ ul li{
 }
 .column_img_txt{
     width: calc(100% / 3 - 50px / 3 * 2);
-    display: flex;
+    /* formula che indica da dimensione dei contenitori img . 1)larghezza 2)elementi su prima colonna 3)sottrazione padding tra le " caselle" 4)n elementi sulla riga  5)n di righe    display: flex; */
     flex-direction: column;
 }
 #row_img_txt .column_img_txt img{
