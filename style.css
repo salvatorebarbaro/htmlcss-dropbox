@@ -314,6 +314,10 @@ ul li{
     
     
 }
+.university:hover{
+    /* test  */
+    border: yellow 25px dotted;
+}
 .conteiner_university .university img{
     width: 100%;
     scale: 0.5;
