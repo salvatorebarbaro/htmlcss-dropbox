@@ -5,11 +5,11 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    border: 1px dotted red;
+    
 }
 /* inizio navbar */
 nav{
-    border: 1px dotted red;
+    
 
     /* test  */
     display: flex;
@@ -46,7 +46,7 @@ nav{
 
 }
 .conteiner-big{
-    border: 1px dotted red;
+    
 
     /* test */
     
@@ -90,7 +90,7 @@ h1{
 /* conteiner big fine */
 /* sezione centrale inizio */
 .sezione_centrale{
-    border: 1px dotted red;
+   
 
     /* test */
     padding-top: 195px;
@@ -243,7 +243,7 @@ ul li{
 /* sezione team fine body */
 /* inizio sezione partner */
 .partner{
-    border:1px dotted red;
+    
     margin-bottom: 170px;
     
 }
@@ -430,5 +430,43 @@ position: relative;
 /* inizio footer  */
 footer{
     background-color: black;
+    color: white;
 }
+footer .conteiner-big{
+    
+    padding-top: 105px;
+    background-color: black;
+    
+}
+#conteiner_liste{
+    display: flex;
+    gap: 105px;
+    margin-bottom: 125px;
+}
+h4{
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+#conteiner_liste .lista ul li{
+    padding-top:11px ;
+    padding-bottom:11px ;
+    font-size: 14px;
+}
+
+footer .conteiner-big hr{
+    border: #939393 solid 1px;
+    margin-bottom: 55px;
+    max-width: 130px;
+
+}
+#selettore_lingua{
+    display: flex;
+    color: #939393;
+}
+#selettore_lingua div:nth-of-type(2){
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
 /* fine footer  */
